@@ -1,35 +1,35 @@
 {"myBudget": [
     {
-        "title": "Eat out",
-        "budget": 25
+        "label": "Eat out",
+        "value": 25
     },
     {
-        "title": "Rent",
-        "budget": 375
+        "label": "Rent",
+        "value": 375
     },
     {
-        "title": "Grocery",
-        "budget": 300
+        "label": "Grocery",
+        "value": 300
     },
     {
-        "title": "Entertainment",
-        "budget": 50
+        "label": "Entertainment",
+        "value": 50
     },
     {
-        "title": "Water/Electric",
-        "budget": 200
+        "label": "Water/Electric",
+        "value": 200
     },
     {
-        "title": "Phone",
-        "budget": 75
+        "label": "Phone",
+        "value": 75
     },
     {
-        "title": "Internet",
-        "budget": 95
+        "label": "Internet",
+        "value": 95
     },
     {
-        "title": "Gas",
-        "budget": 60
+        "label": "Gas",
+        "value": 60
     }
 
 ]}
