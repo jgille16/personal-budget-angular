@@ -1,10 +1,13 @@
+// Budget API
+
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
 const fs = require('fs');
 
-app.use('/', express.static('public'));
+app.use(cors());
 
 // *********Hard coded budget ***********//
 // const budget = {
@@ -28,6 +31,8 @@ app.get('/hello', (req, res) => {
     res.send('Hello World');
 });
 
+//app.use('/',express.static('public'))
+
 // *********Hard coded budget ***********//
 // app.get('/budget', (req, res) => {
 //     res.json(budget);
@@ -41,5 +46,5 @@ app.get('/budget', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`example app listening at http://localhost:${port}`)
+    console.log(`API served at http://localhost:${port}`)
 });

@@ -31,7 +31,7 @@ function createChart() {
 }
 
 function getBudget() {
-    axios.get('/budget')
+    axios.get('http://localhost:3000/budget')
     .then(function (res) {
         console.log(res);
         for (var i = 0; i < res.data.myBudget.length; i++) {
